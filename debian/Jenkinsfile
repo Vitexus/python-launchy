@@ -2,7 +2,7 @@
 
 // Current version of this Pipeline https://github.com/VitexSoftware/BuildImages/blob/main/Test/Jenkinsfile-parael
 
-String[] distributions = ['debian:bookworm', 'debian:trixie', 'ubuntu:noble']
+String[] distributions = ['debian:trixie']
 
 //'ubuntu:jammy',   pbuilder-satisfydepends-dummy : Depends: python3-aiohttp-session-file which is a virtual package and is not provided by any available package
 
