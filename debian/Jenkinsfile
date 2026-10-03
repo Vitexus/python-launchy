@@ -80,7 +80,7 @@ distributions.each { distro ->
                         sh 'sudo apt-get update --allow-releaseinfo-change'
                         sh 'echo "INSTALATION"'
                       
-                        def installOrder = []
+                        def installOrder = ['python3-launchy']
 
                     def sorted_artifacts = artifacts.toList()
                     installOrder.each { pkgPrefix ->
