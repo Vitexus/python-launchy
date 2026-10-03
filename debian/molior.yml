@@ -1,4 +1,0 @@
-config_version: '1'
-targets:
-  3rdparty-python:
-  - '3-stretch9.9'

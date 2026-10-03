@@ -1,11 +1,25 @@
-Source: launchy
-Maintainer: André Roth <neolynx@gmail.com>
+Source: python-launchy
 Section: python
 Priority: optional
-Build-Depends: debhelper (>= 7), dh-python, python3-setuptools, python3-all, git-core
-Standards-Version: 3.9.7
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-python,
+ python3-all,
+ python3-setuptools,
+Standards-Version: 4.7.0
+Homepage: https://github.com/neolynx/launchy
+Vcs-Git: https://github.com/Vitexus/python-launchy.git
+Vcs-Browser: https://github.com/Vitexus/python-launchy
+Rules-Requires-Root: no
 
 Package: python3-launchy
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
-Description: Asyncio sub process wrapper
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+Description: Asyncio subprocess wrapper
+ Launchy is a small asyncio helper for spawning and managing subprocesses
+ with asynchronous stdout/stderr handlers.
+ .
+ This package provides the Python 3 module for launchy.

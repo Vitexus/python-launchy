@@ -1,24 +1,5 @@
-launchy (0.2.0-roche2) stable; urgency=medium
+python-launchy (0.2.0-1) UNRELEASED; urgency=low
 
-  * debian: use source format git
+  * Initial Debian packaging
 
- -- André Roth <andre.roth@roche.com>  Mon, 15 Jul 2019 10:20:31 +0200
-
-launchy (0.2.0-roche1) stable; urgency=medium
-
-  * release for 3rdparty-python version stretch9.9
-
- -- André Roth <andre.roth@roche.com>  Mon, 15 Jul 2019 10:18:07 +0200
-
-launchy (0.2.0) stable; urgency=medium
-
-  * use async stdout/stderr handlers
-  * support subprocess.Popen args
-
- -- André Roth <neolynx@gmail.com>  Sun, 14 Jul 2019 14:36:26 +0200
-
-launchy (0.1.0) stretch; urgency=medium
-
-  * debianized
-
- -- André Roth <neolynx@gmail.com>  Sat, 19 Nov 2016 17:16:25 +0100
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Sat, 03 Oct 2026 22:57:35 +0200
